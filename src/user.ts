@@ -24,7 +24,7 @@ export class User {
   static storagePath(): string {
     User.storageAccessed = true;
 
-    return User.customStoragePath ? User.customStoragePath : path.join(os.homedir(), ".homebridge");
+    return User.customStoragePath ? User.customStoragePath : path.join(os.homedir(), "/Desktop/HomeBridge/homebridge/");
   }
 
   public static setStoragePath(...storagePathSegments: string[]): void {

@@ -1,0 +1,20 @@
+{
+    "bridge": {
+        "name": "Homebridge 515C",
+        "username": "0E:82:AD:2B:51:5C",
+        "port": 51361,
+        "pin": "801-83-218"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config",
+            "log": {
+                "method": "file",
+                "path": "/Users/akshaysharma/Desktop/HomeBridge/homebridge/homebridge.log"
+            }
+        }
+    ]
+}
